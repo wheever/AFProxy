@@ -1,0 +1,6 @@
+# Reidrect URL
+#
+# Regex pattern only
+
+http://item\.taobao\.com/item\.htm\?(?=.*?&).*?(id=\d*).+	http://item.taobao.com/item.htm?\1
+http://www\.google\.com/$					https://www.google.com/?gws_rd=ssl

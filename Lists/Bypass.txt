@@ -1,0 +1,30 @@
+# Bypass filtering URL
+#
+# This file use Privoxy pattern syntax
+# http://www.privoxy.org/user-manual/actions-file.html#AF-PATTERNS
+#
+# The pattern will be tested against the URL from the beginning
+# excluding the http:// and https:// part
+#
+# Wildcards syntax:
+#
+# * matches everything 
+# ? matches any single character 
+# [seq] matches any character in seq 
+# [!seq] matches any character not in seq
+#
+# Regex syntax:
+#
+# https://docs.python.org/3/library/re.html
+#
+# Unmatching a match:
+#
+# You can add "exclude" lines by prefixing a line with the '~' character
+# For example: ~abc.com
+
+www.amazon.com
+.douban.com
+
+www.bankcomm.com/
+creditcard.cmbchina.com/
+.htsc.com.cn
